@@ -1,0 +1,126 @@
+nohup: ignoring input
+127.0.0.1 - - [29/Oct/2025 01:10:10] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [29/Oct/2025 01:10:11] code 404, message File not found
+127.0.0.1 - - [29/Oct/2025 01:10:11] "GET /style.css HTTP/1.1" 404 -
+127.0.0.1 - - [29/Oct/2025 01:10:12] code 404, message File not found
+127.0.0.1 - - [29/Oct/2025 01:10:12] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [29/Oct/2025 01:25:40] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [29/Oct/2025 01:25:41] "GET /style.css HTTP/1.1" 200 -
+127.0.0.1 - - [29/Oct/2025 01:42:23] "HEAD / HTTP/1.1" 200 -
+127.0.0.1 - - [29/Oct/2025 01:42:27] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [29/Oct/2025 01:42:28] "GET /style.css HTTP/1.1" 304 -
+127.0.0.1 - - [29/Oct/2025 01:42:28] code 404, message File not found
+127.0.0.1 - - [29/Oct/2025 01:42:28] "GET /img/ong.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [29/Oct/2025 01:43:58] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [29/Oct/2025 01:43:59] code 404, message File not found
+127.0.0.1 - - [29/Oct/2025 01:43:59] "GET /img/ong.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [29/Oct/2025 01:44:05] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [29/Oct/2025 01:44:06] code 404, message File not found
+127.0.0.1 - - [29/Oct/2025 01:44:06] "GET /img/ong.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [29/Oct/2025 01:44:30] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [29/Oct/2025 01:44:30] code 404, message File not found
+127.0.0.1 - - [29/Oct/2025 01:44:30] "GET /style.css HTTP/1.1" 404 -
+127.0.0.1 - - [29/Oct/2025 01:44:31] code 404, message File not found
+127.0.0.1 - - [29/Oct/2025 01:44:31] "GET /img/ong.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [29/Oct/2025 02:03:09] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [29/Oct/2025 02:03:10] code 404, message File not found
+127.0.0.1 - - [29/Oct/2025 02:03:10] "GET /style.css HTTP/1.1" 404 -
+127.0.0.1 - - [29/Oct/2025 02:03:10] code 404, message File not found
+127.0.0.1 - - [29/Oct/2025 02:03:10] "GET /img/ong.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [29/Oct/2025 02:03:25] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [29/Oct/2025 02:03:25] code 404, message File not found
+127.0.0.1 - - [29/Oct/2025 02:03:25] "GET /img/ong.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [29/Oct/2025 02:03:26] code 404, message File not found
+127.0.0.1 - - [29/Oct/2025 02:03:26] "GET /style.css HTTP/1.1" 404 -
+127.0.0.1 - - [29/Oct/2025 02:04:40] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [29/Oct/2025 02:04:41] code 404, message File not found
+127.0.0.1 - - [29/Oct/2025 02:04:41] code 404, message File not found
+127.0.0.1 - - [29/Oct/2025 02:04:41] "GET /style.css HTTP/1.1" 404 -
+127.0.0.1 - - [29/Oct/2025 02:04:41] "GET /img/ong.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [29/Oct/2025 02:32:58] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [29/Oct/2025 02:32:59] code 404, message File not found
+127.0.0.1 - - [29/Oct/2025 02:32:59] "GET /style.css HTTP/1.1" 404 -
+127.0.0.1 - - [29/Oct/2025 02:32:59] code 404, message File not found
+127.0.0.1 - - [29/Oct/2025 02:32:59] "GET /img/ong.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [29/Oct/2025 02:33:03] "GET /projetos.html HTTP/1.1" 200 -
+127.0.0.1 - - [29/Oct/2025 02:33:03] code 404, message File not found
+127.0.0.1 - - [29/Oct/2025 02:33:03] "GET /style.css HTTP/1.1" 404 -
+127.0.0.1 - - [29/Oct/2025 02:33:04] code 404, message File not found
+127.0.0.1 - - [29/Oct/2025 02:33:04] "GET /img/projeto2.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [29/Oct/2025 02:33:04] code 404, message File not found
+127.0.0.1 - - [29/Oct/2025 02:33:04] "GET /img/projeto1.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [29/Oct/2025 03:09:16] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [29/Oct/2025 03:09:17] code 404, message File not found
+127.0.0.1 - - [29/Oct/2025 03:09:17] "GET /img/ong.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [29/Oct/2025 03:09:17] code 404, message File not found
+127.0.0.1 - - [29/Oct/2025 03:09:17] "GET /style.css HTTP/1.1" 404 -
+127.0.0.1 - - [29/Oct/2025 03:09:19] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [29/Oct/2025 03:09:20] code 404, message File not found
+127.0.0.1 - - [29/Oct/2025 03:09:20] "GET /style.css HTTP/1.1" 404 -
+127.0.0.1 - - [29/Oct/2025 03:09:20] code 404, message File not found
+127.0.0.1 - - [29/Oct/2025 03:09:20] "GET /img/ong.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [29/Oct/2025 03:09:22] "GET /projetos.html HTTP/1.1" 304 -
+127.0.0.1 - - [29/Oct/2025 03:09:22] code 404, message File not found
+127.0.0.1 - - [29/Oct/2025 03:09:22] code 404, message File not found
+127.0.0.1 - - [29/Oct/2025 03:09:22] "GET /img/projeto1.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [29/Oct/2025 03:09:22] "GET /style.css HTTP/1.1" 404 -
+127.0.0.1 - - [29/Oct/2025 03:09:22] code 404, message File not found
+127.0.0.1 - - [29/Oct/2025 03:09:22] "GET /img/projeto2.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [29/Oct/2025 03:09:24] "GET /cadastro.html HTTP/1.1" 200 -
+127.0.0.1 - - [29/Oct/2025 03:09:24] code 404, message File not found
+127.0.0.1 - - [29/Oct/2025 03:09:24] "GET /style.css HTTP/1.1" 404 -
+127.0.0.1 - - [29/Oct/2025 03:12:16] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [29/Oct/2025 03:12:16] code 404, message File not found
+127.0.0.1 - - [29/Oct/2025 03:12:16] "GET /style.css HTTP/1.1" 404 -
+127.0.0.1 - - [29/Oct/2025 03:12:16] code 404, message File not found
+127.0.0.1 - - [29/Oct/2025 03:12:16] "GET /img/ong.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [29/Oct/2025 03:12:19] "GET /cadastro.html HTTP/1.1" 200 -
+127.0.0.1 - - [29/Oct/2025 03:12:19] code 404, message File not found
+127.0.0.1 - - [29/Oct/2025 03:12:19] "GET /style.css HTTP/1.1" 404 -
+127.0.0.1 - - [29/Oct/2025 03:12:59] code 404, message File not found
+127.0.0.1 - - [29/Oct/2025 03:12:59] "GET /style.css HTTP/1.1" 404 -
+127.0.0.1 - - [29/Oct/2025 03:12:59] code 404, message File not found
+127.0.0.1 - - [29/Oct/2025 03:12:59] "GET /img/ong.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [29/Oct/2025 03:14:26] "GET /projetos.html HTTP/1.1" 304 -
+127.0.0.1 - - [29/Oct/2025 03:14:27] code 404, message File not found
+127.0.0.1 - - [29/Oct/2025 03:14:27] "GET /img/projeto2.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [29/Oct/2025 03:14:27] code 404, message File not found
+127.0.0.1 - - [29/Oct/2025 03:14:27] "GET /style.css HTTP/1.1" 404 -
+127.0.0.1 - - [29/Oct/2025 03:14:27] code 404, message File not found
+127.0.0.1 - - [29/Oct/2025 03:14:27] "GET /img/projeto1.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [29/Oct/2025 03:14:32] "GET /cadastro.html HTTP/1.1" 304 -
+127.0.0.1 - - [29/Oct/2025 03:14:33] code 404, message File not found
+127.0.0.1 - - [29/Oct/2025 03:14:33] "GET /style.css HTTP/1.1" 404 -
+127.0.0.1 - - [29/Oct/2025 03:20:01] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [29/Oct/2025 03:20:02] code 404, message File not found
+127.0.0.1 - - [29/Oct/2025 03:20:02] "GET /style.css HTTP/1.1" 404 -
+127.0.0.1 - - [29/Oct/2025 03:20:02] code 404, message File not found
+127.0.0.1 - - [29/Oct/2025 03:20:02] "GET /img/ong.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [29/Oct/2025 03:20:05] code 404, message File not found
+127.0.0.1 - - [29/Oct/2025 03:20:05] "GET /img/ong.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [29/Oct/2025 03:20:09] code 404, message File not found
+127.0.0.1 - - [29/Oct/2025 03:20:09] "GET /img/ong.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [29/Oct/2025 03:20:31] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [29/Oct/2025 03:20:31] code 404, message File not found
+127.0.0.1 - - [29/Oct/2025 03:20:31] "GET /style.css HTTP/1.1" 404 -
+127.0.0.1 - - [29/Oct/2025 03:20:32] "GET /img/ong.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [29/Oct/2025 03:23:42] "GET /projetos.html HTTP/1.1" 200 -
+127.0.0.1 - - [29/Oct/2025 03:23:43] code 404, message File not found
+127.0.0.1 - - [29/Oct/2025 03:23:43] "GET /style.css HTTP/1.1" 404 -
+127.0.0.1 - - [29/Oct/2025 03:23:43] "GET /img/projeto1.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [29/Oct/2025 03:23:43] "GET /img/projeto2.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [29/Oct/2025 03:23:52] "GET /cadastro.html HTTP/1.1" 304 -
+127.0.0.1 - - [29/Oct/2025 03:23:52] code 404, message File not found
+127.0.0.1 - - [29/Oct/2025 03:23:52] "GET /style.css HTTP/1.1" 404 -
+127.0.0.1 - - [29/Oct/2025 03:29:19] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [29/Oct/2025 03:29:20] code 404, message File not found
+127.0.0.1 - - [29/Oct/2025 03:29:20] "GET /style.css HTTP/1.1" 404 -
+127.0.0.1 - - [29/Oct/2025 03:29:20] "GET /img/ong.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [29/Oct/2025 03:29:21] code 404, message File not found
+127.0.0.1 - - [29/Oct/2025 03:29:21] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [29/Oct/2025 03:29:26] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [29/Oct/2025 03:29:26] "GET /img/ong.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [29/Oct/2025 03:29:26] code 404, message File not found
+127.0.0.1 - - [29/Oct/2025 03:29:26] "GET /style.css HTTP/1.1" 404 -
+127.0.0.1 - - [29/Oct/2025 03:29:27] code 404, message File not found
+127.0.0.1 - - [29/Oct/2025 03:29:27] "GET /favicon.ico HTTP/1.1" 404 -
