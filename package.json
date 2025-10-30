@@ -1,0 +1,16 @@
+
+{
+	"name": "site-ong",
+	"version": "1.0.0",
+	"description": "Site estático da ONG Esperança Viva servido por Express para desenvolvimento",
+	"main": "server.js",
+	"scripts": {
+		"start": "node server.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "MIT",
+	"dependencies": {
+		"express": "^4.18.2"
+	}
+}
