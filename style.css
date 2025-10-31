@@ -209,3 +209,16 @@ fieldset {
     padding: var(--espaco-2);
     margin-bottom: var(--espaco-3);
 }
+
+#feedback {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.success {
+    color: green;
+}
+
+.error {
+    color: red;
+}
