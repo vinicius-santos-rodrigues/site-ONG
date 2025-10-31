@@ -33,7 +33,7 @@ body {
 }
 
 header, footer {
-    background-dolor: var(--cor-primaria);
+    background-color: var(--cor-primaria);
     color: white;
     padding: var(--espaco-2);
     text-align: center;
@@ -47,7 +47,7 @@ main {
 }
 
 section {
-    grid-columns: span12;
+    grid-column: span12;
     background-color: white;
     padding: var(--espaco-3);
     border-radius: 8px;
