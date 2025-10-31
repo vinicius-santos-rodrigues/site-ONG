@@ -1,28 +1,44 @@
 const { json } = require("express");
 
 function templateHome() {
-    return '<h1>Bem-vindo à ONG</h1><p>Conheça nossos projetos e participaçipe!</p>';
+  return `
+    <section aria-labelledby="home-titulo">
+      <h1 id="home-titulo">Bem-vindo à ONG</h1>
+      <p>Conheça nossos projetos e participe!</p>
+    </section>
+  `;
 }
+
 
 function templateCadastro() {
-    return `
-    <h2>Cadastro</h2>
-    <form id="form-cadastro">
-        <input type="text" name="nome" placeholder="Nome" required />
-        <input type="email" name="email" placeholder="Email" required />
+  return `
+    <section aria-labelledby="cadastro-titulo">
+      <h2 id="cadastro-titulo">Cadastro</h2>
+      <form id="form-cadastro" aria-label="Formulário de cadastro">
+        <label for="nome">Nome</label>
+        <input type="text" name="nome" id="nome" required />
+
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" required />
+
         <button type="submit">Enviar</button>
-    </form>
-    <div id="feedback"></div>
-    `;
+      </form>
+      <div id="feedback" aria-live="polite"></div>
+    </section>
+  `;
 }
 
+
 function templateProjetos() {
-    return `
-    <h2>Projetos</h2>
-    <p>Veja os cadastros realizados:</p>
-    ${listarCadastros()}
-    `;
+  return `
+    <section aria-labelledby="projetos-titulo">
+      <h2 id="projetos-titulo">Projetos</h2>
+      <p>Veja os cadastros realizados:</p>
+      ${listarCadastros()}
+    </section>
+  `;
 }
+
 
 function navegar(pagina) {
     const app = document.getElementById('app');
@@ -63,12 +79,16 @@ doxument.addEventListener('submit' , function(e) {
 });
 
 function listarCadastros() {
-    const cadastros = JSON.parse(localStorage.getItem('cadastros')) || [];
-    return `
-    <ul>
-        ${cadastros.map(c => `<li>${c.nome} - ${c.email}</li>`).join('')}
-        </ul>
-        `;
+  const cadastros = JSON.parse(localStorage.getItem('cadastros')) || [];
+  return `
+    <ul aria-label="Lista de cadastros realizados">
+      ${cadastros.map(c => `<li>${c.nome} - ${c.email}</li>`).join('')}
+    </ul>
+  `;
+}
+
+function alternarTema() {
+    document.body.classList.toggle('tema-escuro');
 }
 
 navegar('home');

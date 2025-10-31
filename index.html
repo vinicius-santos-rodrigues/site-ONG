@@ -7,13 +7,23 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <nav>
-    <button onclick="navegar('home')">Home</button>
-    <button onclick="navegar('cadastro')">Cadastro</button>
-    <button onclick="navegar('projetos')">Projetos</button>
+  <header>
+    <h1>ONG Esperança Viva</h1>
+  </header>
+
+  <nav role="navigation" aria-label="Menu Principal">
+    <button onclick="navegar('home')" aria-label="Ir para Home">Home</button>
+    <button onclick="navegar('cadastro')" aria-label="Ir para Cadastro">Cadastro</button>
+    <button onclick="navegar('projetos')" aria-label="Ir para Projetos">Projetos</button>
   </nav>
 
-  <div id="app"></div>
+  <button onclick="alterarTema()" aria-label="alterar modo de contraste">Alternar tema</button>
+
+  <main id="app" role="main"></main>
+
+  <footer>
+    <p>© 2025 ONG Esperança Viva. Todos os Direitos Reservados.</p>
+  </footer>
 
   <script src="app.js"></script>
 </body>
@@ -21,7 +31,7 @@
   <main>
     <section>
       <h2>Quem Somos</h2>
-      <img src="img/ong.jpg" alt="Nossa Logo" width="100">
+      <img src="img/ong.jpg" alt="Logotipo da ONG, Uma arvore com as folhas formadas por mãos" width="100">
       <p>A ONG Esperança Viva atua desde 2010 promovendo inclusão social e cidadania através de projetos comunitários.</p>
     </section>
 

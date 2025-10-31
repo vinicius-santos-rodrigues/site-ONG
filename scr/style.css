@@ -222,3 +222,31 @@ fieldset {
 .error {
     color: red;
 }
+
+body {
+    background-color: #ffffff;
+    color: #222222;
+}
+
+button:focus,
+input:focus {
+    outline: 2px solid #005fcc;
+    outline-offset: 2px;
+}
+
+.dark-mode {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.dark-mode button {
+    background-color: #222222;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+}
+
+.dark-mode input {
+    background-color: #111111;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+}
